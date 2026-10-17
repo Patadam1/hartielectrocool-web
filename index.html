@@ -163,9 +163,15 @@ h2 { font-size: clamp(2.2rem, 5.4vw, 4.6rem); }
 .brands { border-block: 1px solid var(--line); background: var(--ground-2); }
 .brands .wrap { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 28px 60px; align-items: center; padding-block: 44px; }
 .brands__label { margin: 0; max-width: 16ch; font: 800 clamp(1.15rem, 1.8vw, 1.5rem)/1.15 var(--display); letter-spacing: -.02em; }
-.brands ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
-.brands li { display: grid; place-items: center; padding: 14px 18px; border-radius: 14px; background: #fff; min-height: 84px; }
-.brands li img { width: 100%; max-width: 160px; max-height: 54px; object-fit: contain; height: auto; }
+.marquee { position: relative; overflow: hidden; min-width: 0;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+.marquee__track { display: flex; width: max-content; animation: marquee 28s linear infinite; }
+.marquee:hover .marquee__track, .marquee:focus-within .marquee__track { animation-play-state: paused; }
+@keyframes marquee { to { transform: translateX(-50%); } }
+.brands ul { list-style: none; margin: 0; padding: 0 6px; display: flex; gap: 12px; }
+.brands li { flex: none; display: grid; place-items: center; width: 190px; height: 84px; padding: 14px 20px; border-radius: 14px; background: #fff; }
+.brands li img { width: 100%; height: 100%; object-fit: contain; }
+@media (prefers-reduced-motion: reduce) { .marquee { -webkit-mask-image: none; mask-image: none; } .marquee__track { animation: none; width: auto; } .marquee__track ul[aria-hidden] { display: none; } .marquee__track ul { flex-wrap: wrap; } }
 
 /* ---------- services ---------- */
 .svc { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
@@ -301,8 +307,8 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space
   footer { padding-bottom: calc(100px + env(safe-area-inset-bottom)); }
 }
 @media (max-width: 640px) {
-  .brands ul { grid-template-columns: 1fr 1fr; }
-  .brands li:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .brands li { width: 150px; height: 70px; padding: 12px 16px; }
+  .marquee { margin-inline: calc(var(--gutter) * -1); }
   .row2 { grid-template-columns: 1fr; }
   .hero__actions .btn { flex: 1 1 100%; }
   .badge__name small { display: none; }
@@ -354,13 +360,22 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space
   <section class="brands scan" id="marcas" aria-labelledby="t-marcas">
     <div class="wrap">
       <h2 class="brands__label" id="t-marcas">Servicio técnico oficial e instaladores autorizados</h2>
-      <ul>
+      <div class="marquee"><div class="marquee__track">
+        <ul>
         <li><img src="assets/marca-kaysun.png" alt="Kaysun by Frigicoll" loading="lazy"></li>
         <li><img src="assets/marca-midea.png" alt="Midea" loading="lazy"></li>
         <li><img src="assets/marca-kosner.png" alt="Kosner, climatización eficiente" loading="lazy"></li>
         <li><img src="assets/marca-coolwell.png" alt="Coolwell" loading="lazy"></li>
         <li><img src="assets/marca-vivax.png" alt="Vivax" loading="lazy"></li>
       </ul>
+        <ul aria-hidden="true">
+        <li><img src="assets/marca-kaysun.png" alt="" loading="lazy"></li>
+        <li><img src="assets/marca-midea.png" alt="" loading="lazy"></li>
+        <li><img src="assets/marca-kosner.png" alt="" loading="lazy"></li>
+        <li><img src="assets/marca-coolwell.png" alt="" loading="lazy"></li>
+        <li><img src="assets/marca-vivax.png" alt="" loading="lazy"></li>
+      </ul>
+      </div></div>
     </div>
   </section>
 
