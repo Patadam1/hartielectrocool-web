@@ -12,7 +12,7 @@ delegated: static HTML/CSS/JS single page, no build step; hosted on GitHub Pages
 
 ## Users
 
-Homeowners and small businesses in Pedro Muñoz (Ciudad Real, 13620) and surroundings who need air conditioning or heating installed, serviced or repaired — often urgently in summer heat or winter cold — plus owners of Kaysun, Midea, Kosner or Coolwell equipment looking for the brand's official technical service. Mostly on phones.
+Homeowners and small businesses in Pedro Muñoz (Ciudad Real, 13620) and surroundings who need air conditioning or heating installed, serviced or repaired — often urgently in summer heat or winter cold — plus owners of Kaysun, Midea, Kosner, Coolwell or Vivax equipment looking for the brand's official technical service. Mostly on phones.
 
 ## Product Purpose
 
@@ -20,7 +20,7 @@ Website for Hartielectrocool (Harti Electrocool Climatización). Success = visit
 
 ## Positioning
 
-Local climate specialist that is also the official technical service and authorised installer for Kaysun (by Frigicoll), Midea, Kosner and Coolwell — sells its own equipment and repairs other brands.
+Local climate specialist that is also the official technical service and authorised installer for Kaysun (by Frigicoll), Midea, Kosner, Coolwell and Vivax — sells its own equipment and repairs other brands.
 
 ## Capabilities and Constraints
 
