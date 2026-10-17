@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T11:14:37+00:00",
+  "title": "Design System: Hartielectrocool Climatización",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "canonical": "oklch(14.4% 0.033 294.9)",
+        "tonalRamp": [
+          "oklch(15% 0.033 294.9)",
+          "oklch(25% 0.033 294.9)",
+          "oklch(35% 0.033 294.9)",
+          "oklch(45% 0.033 294.9)",
+          "oklch(55% 0.033 294.9)",
+          "oklch(68% 0.033 294.9)",
+          "oklch(82% 0.033 294.9)",
+          "oklch(95% 0.033 294.9)"
+        ]
+      },
+      "ground-raised": {
+        "role": "neutral",
+        "displayName": "Ground Raised",
+        "canonical": "oklch(18.2% 0.052 294.9)",
+        "tonalRamp": [
+          "oklch(15% 0.034 294.9)",
+          "oklch(25% 0.044 294.9)",
+          "oklch(35% 0.052 294.9)",
+          "oklch(45% 0.052 294.9)",
+          "oklch(55% 0.052 294.9)",
+          "oklch(68% 0.052 294.9)",
+          "oklch(82% 0.046 294.9)",
+          "oklch(95% 0.034 294.9)"
+        ]
+      },
+      "ink-violet": {
+        "role": "neutral",
+        "displayName": "Ink Violet",
+        "canonical": "oklch(17.3% 0.052 294.5)",
+        "tonalRamp": [
+          "oklch(15% 0.034 294.5)",
+          "oklch(25% 0.044 294.5)",
+          "oklch(35% 0.052 294.5)",
+          "oklch(45% 0.052 294.5)",
+          "oklch(55% 0.052 294.5)",
+          "oklch(68% 0.052 294.5)",
+          "oklch(82% 0.046 294.5)",
+          "oklch(95% 0.034 294.5)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "rgba(244, 236, 255, 0.14)"
+      },
+      "bone": {
+        "role": "neutral",
+        "displayName": "Bone",
+        "canonical": "oklch(96.0% 0.011 76.6)",
+        "tonalRamp": [
+          "oklch(15% 0.011 76.6)",
+          "oklch(25% 0.011 76.6)",
+          "oklch(35% 0.011 76.6)",
+          "oklch(45% 0.011 76.6)",
+          "oklch(55% 0.011 76.6)",
+          "oklch(68% 0.011 76.6)",
+          "oklch(82% 0.011 76.6)",
+          "oklch(95% 0.011 76.6)"
+        ]
+      },
+      "lilac-soft": {
+        "role": "neutral",
+        "displayName": "Lilac Soft",
+        "canonical": "oklch(82.1% 0.038 303.0)",
+        "tonalRamp": [
+          "oklch(15% 0.038 303.0)",
+          "oklch(25% 0.038 303.0)",
+          "oklch(35% 0.038 303.0)",
+          "oklch(45% 0.038 303.0)",
+          "oklch(55% 0.038 303.0)",
+          "oklch(68% 0.038 303.0)",
+          "oklch(82% 0.038 303.0)",
+          "oklch(95% 0.038 303.0)"
+        ]
+      },
+      "logo-orange": {
+        "role": "primary",
+        "displayName": "Logo Orange",
+        "canonical": "oklch(75.2% 0.165 62.2)",
+        "tonalRamp": [
+          "oklch(15% 0.065 62.2)",
+          "oklch(25% 0.095 62.2)",
+          "oklch(35% 0.125 62.2)",
+          "oklch(45% 0.155 62.2)",
+          "oklch(55% 0.165 62.2)",
+          "oklch(68% 0.146 62.2)",
+          "oklch(82% 0.104 62.2)",
+          "oklch(95% 0.065 62.2)"
+        ]
+      },
+      "logo-cyan": {
+        "role": "primary",
+        "displayName": "Logo Cyan",
+        "canonical": "oklch(72.0% 0.134 230.2)",
+        "tonalRamp": [
+          "oklch(15% 0.057 230.2)",
+          "oklch(25% 0.081 230.2)",
+          "oklch(35% 0.105 230.2)",
+          "oklch(45% 0.130 230.2)",
+          "oklch(55% 0.134 230.2)",
+          "oklch(68% 0.122 230.2)",
+          "oklch(82% 0.088 230.2)",
+          "oklch(95% 0.057 230.2)"
+        ]
+      },
+      "ember-red": {
+        "role": "secondary",
+        "displayName": "Ember Red",
+        "canonical": "oklch(62.4% 0.203 32.3)",
+        "tonalRamp": [
+          "oklch(15% 0.075 32.3)",
+          "oklch(25% 0.112 32.3)",
+          "oklch(35% 0.149 32.3)",
+          "oklch(45% 0.186 32.3)",
+          "oklch(55% 0.203 32.3)",
+          "oklch(68% 0.175 32.3)",
+          "oklch(82% 0.123 32.3)",
+          "oklch(95% 0.075 32.3)"
+        ]
+      },
+      "logo-blue": {
+        "role": "secondary",
+        "displayName": "Logo Blue",
+        "canonical": "oklch(55.1% 0.156 252.2)",
+        "tonalRamp": [
+          "oklch(15% 0.063 252.2)",
+          "oklch(25% 0.091 252.2)",
+          "oklch(35% 0.119 252.2)",
+          "oklch(45% 0.148 252.2)",
+          "oklch(55% 0.156 252.2)",
+          "oklch(68% 0.139 252.2)",
+          "oklch(82% 0.099 252.2)",
+          "oklch(95% 0.063 252.2)"
+        ]
+      },
+      "deep-cold": {
+        "role": "tertiary",
+        "displayName": "Deep Cold",
+        "canonical": "oklch(25.9% 0.119 266.5)",
+        "tonalRamp": [
+          "oklch(15% 0.052 266.5)",
+          "oklch(25% 0.074 266.5)",
+          "oklch(35% 0.096 266.5)",
+          "oklch(45% 0.117 266.5)",
+          "oklch(55% 0.119 266.5)",
+          "oklch(68% 0.111 266.5)",
+          "oklch(82% 0.081 266.5)",
+          "oklch(95% 0.052 266.5)"
+        ]
+      },
+      "iron-violet": {
+        "role": "tertiary",
+        "displayName": "Iron Violet",
+        "canonical": "oklch(38.5% 0.172 305.8)",
+        "tonalRamp": [
+          "oklch(15% 0.067 305.8)",
+          "oklch(25% 0.098 305.8)",
+          "oklch(35% 0.129 305.8)",
+          "oklch(45% 0.161 305.8)",
+          "oklch(55% 0.172 305.8)",
+          "oklch(68% 0.151 305.8)",
+          "oklch(82% 0.108 305.8)",
+          "oklch(95% 0.067 305.8)"
+        ]
+      },
+      "iron-magenta": {
+        "role": "tertiary",
+        "displayName": "Iron Magenta",
+        "canonical": "oklch(51.2% 0.198 355.7)",
+        "tonalRamp": [
+          "oklch(15% 0.074 355.7)",
+          "oklch(25% 0.110 355.7)",
+          "oklch(35% 0.146 355.7)",
+          "oklch(45% 0.182 355.7)",
+          "oklch(55% 0.198 355.7)",
+          "oklch(68% 0.171 355.7)",
+          "oklch(82% 0.121 355.7)",
+          "oklch(95% 0.074 355.7)"
+        ]
+      },
+      "sodium-yellow": {
+        "role": "tertiary",
+        "displayName": "Sodium Yellow",
+        "canonical": "oklch(87.9% 0.162 90.9)",
+        "tonalRamp": [
+          "oklch(15% 0.064 90.9)",
+          "oklch(25% 0.094 90.9)",
+          "oklch(35% 0.123 90.9)",
+          "oklch(45% 0.153 90.9)",
+          "oklch(55% 0.162 90.9)",
+          "oklch(68% 0.144 90.9)",
+          "oklch(82% 0.102 90.9)",
+          "oklch(95% 0.064 90.9)"
+        ]
+      },
+      "white-hot": {
+        "role": "tertiary",
+        "displayName": "White-Hot",
+        "canonical": "oklch(93.7% 0.086 91.6)",
+        "tonalRamp": [
+          "oklch(15% 0.043 91.6)",
+          "oklch(25% 0.059 91.6)",
+          "oklch(35% 0.075 91.6)",
+          "oklch(45% 0.086 91.6)",
+          "oklch(55% 0.086 91.6)",
+          "oklch(68% 0.086 91.6)",
+          "oklch(82% 0.064 91.6)",
+          "oklch(95% 0.043 91.6)"
+        ]
+      },
+      "ink-on-hot": {
+        "role": "neutral",
+        "displayName": "Ink on Hot",
+        "canonical": "oklch(17.3% 0.034 59.4)",
+        "tonalRamp": [
+          "oklch(15% 0.034 59.4)",
+          "oklch(25% 0.034 59.4)",
+          "oklch(35% 0.034 59.4)",
+          "oklch(45% 0.034 59.4)",
+          "oklch(55% 0.034 59.4)",
+          "oklch(68% 0.034 59.4)",
+          "oklch(82% 0.034 59.4)",
+          "oklch(95% 0.034 59.4)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only; balanced, max 12ch."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles; the closing band scales to 5.6rem."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service row titles."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "System card titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text; secondary copy in lilac-soft at 46-48ch."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "The single sentence under a headline, max 48ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, legends and field labels."
+      },
+      "readout": {
+        "displayName": "Readout",
+        "purpose": "Measured values (kW, frigorías, m², °C, times) in white-hot."
+      },
+      "hud": {
+        "displayName": "HUD",
+        "purpose": "Uppercase camera overlay text on live thermal fields."
+      }
+    },
+    "gradients": [
+      {
+        "name": "thermal-ramp",
+        "value": "linear-gradient(90deg, #0a1a5c, #1673c9 18%, #2bb3e8 32%, #5b1a8a 48%, #b5176b 62%, #e8462a 74%, #f7931e 86%, #ffd23f 94%, #fff3cf)",
+        "purpose": "The One Ramp: scale bars, slider track, scan line, ticket rule, hot-button hover, canvas palette (16-44 °C)."
+      }
+    ],
+    "shadows": [
+      {
+        "name": "action-lift",
+        "value": "0 10px 24px -14px rgba(0,0,0,.7)",
+        "purpose": "Hot button at rest."
+      },
+      {
+        "name": "action-lift-hover",
+        "value": "0 16px 30px -14px rgba(0,0,0,.8)",
+        "purpose": "Hot button on hover, with a 2px rise."
+      },
+      {
+        "name": "panel-drop",
+        "value": "inset 0 0 0 1px rgba(244,236,255,.14), 0 30px 70px -40px rgba(0,0,0,.85)",
+        "purpose": "Message ticket."
+      },
+      {
+        "name": "badge-lift",
+        "value": "0 0 0 3px rgba(255,255,255,.08), 0 8px 20px -10px rgba(0,0,0,.7)",
+        "purpose": "White logo disc."
+      },
+      {
+        "name": "thumb",
+        "value": "0 0 0 5px rgba(11,7,22,.85), 0 6px 18px rgba(0,0,0,.4)",
+        "purpose": "Range slider thumb."
+      },
+      {
+        "name": "status-halo",
+        "value": "0 0 0 4px rgba(52,210,123,.18)",
+        "purpose": "Open-now status dot."
+      },
+      {
+        "name": "hairline-inset",
+        "value": "inset 0 0 0 1px rgba(244,236,255,.14)",
+        "purpose": "Card and contact-row strokes in place of borders."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "All transforms, the scan reveal, card zoom and the mobile bar."
+      },
+      {
+        "name": "scan-reveal",
+        "value": "clip-path inset 100%→0 over 1.1s + 3px ramp line top→100%, once at 12% visibility",
+        "purpose": "The only section reveal; removed under reduced motion."
+      },
+      {
+        "name": "button-transform",
+        "value": ".45s",
+        "purpose": "Button lift and arrow nudge."
+      },
+      {
+        "name": "color-state",
+        "value": ".2s-.3s",
+        "purpose": "Color, ring and fill state changes."
+      },
+      {
+        "name": "row-wash",
+        "value": ".8s",
+        "purpose": "Service-row temperature wash sweep."
+      },
+      {
+        "name": "thumb-zoom",
+        "value": "1.4s",
+        "purpose": "System card thermal thumbnail on hover."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "collapse",
+        "value": "980px",
+        "purpose": "Single column, dropdown nav, snap-scrolling cards, bottom action bar."
+      },
+      {
+        "name": "hud-horizontal",
+        "value": "760px",
+        "purpose": "Hero scale bar moves to the bottom edge and turns horizontal."
+      },
+      {
+        "name": "phone",
+        "value": "640px",
+        "purpose": "Brand tiles two-up, form rows stack, hero buttons full width."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Hot Button",
+      "kind": "button",
+      "refersTo": "button-hot",
+      "description": "The single filled call to action; the thermal ramp floods it on hover.",
+      "html": "<a class=\"ds-btn-hot\" href=\"#\">Pedir presupuesto <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-btn-hot { position: relative; display: inline-flex; align-items: center; gap: 12px; min-height: 54px; padding: 0 26px; border-radius: 999px; background: #f7931e; color: #1b0c02; font: 700 15px/1 Manrope, 'Segoe UI', system-ui, sans-serif; letter-spacing: .01em; text-decoration: none; isolation: isolate; overflow: hidden; box-shadow: 0 10px 24px -14px rgba(0,0,0,.7); transition: transform .45s cubic-bezier(.16, 1, .3, 1), box-shadow .45s cubic-bezier(.16, 1, .3, 1); } .ds-btn-hot::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, #0a1a5c, #1673c9 18%, #2bb3e8 32%, #5b1a8a 48%, #b5176b 62%, #e8462a 74%, #f7931e 86%, #ffd23f 94%, #fff3cf); background-size: 300% 100%; background-position: 85% 0; opacity: 0; transition: opacity .35s, background-position .9s cubic-bezier(.16, 1, .3, 1); } .ds-btn-hot svg { transition: transform .45s cubic-bezier(.16, 1, .3, 1); } .ds-btn-hot:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -14px rgba(0,0,0,.8); } .ds-btn-hot:hover::before { opacity: 1; background-position: 100% 0; } .ds-btn-hot:hover svg { transform: translateX(3px); } .ds-btn-hot:active { transform: scale(.97); } .ds-btn-hot:focus-visible { outline: 2px solid #ffe9a8; outline-offset: 3px; }"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Secondary action (call, copy); cools to cyan on hover.",
+      "html": "<a class=\"ds-btn-line\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2\"/></svg> Llamar</a>",
+      "css": ".ds-btn-line { display: inline-flex; align-items: center; gap: 12px; min-height: 54px; padding: 0 26px; border-radius: 999px; background: rgba(11,7,22,.35); color: #f6f1ea; box-shadow: inset 0 0 0 1.5px rgba(246,241,234,.5); font: 700 15px/1 Manrope, 'Segoe UI', system-ui, sans-serif; text-decoration: none; transition: box-shadow .25s, background-color .25s, color .25s, transform .45s cubic-bezier(.16, 1, .3, 1); } .ds-btn-line:hover { box-shadow: inset 0 0 0 1.5px #2bb3e8; color: #fff; background: rgba(43,179,232,.12); } .ds-btn-line:active { transform: scale(.97); } .ds-btn-line:focus-visible { outline: 2px solid #ffe9a8; outline-offset: 3px; }"
+    },
+    {
+      "name": "Service Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Radio chips for picking a service in the quote form.",
+      "html": "<div class=\"ds-chips\"><label class=\"ds-chip\"><input type=\"radio\" name=\"ds-s\" checked><span>Instalación</span></label><label class=\"ds-chip\"><input type=\"radio\" name=\"ds-s\"><span>Mantenimiento</span></label><label class=\"ds-chip\"><input type=\"radio\" name=\"ds-s\"><span>Reparación</span></label></div>",
+      "css": ".ds-chips { display: flex; flex-wrap: wrap; gap: 10px; } .ds-chip { position: relative; } .ds-chip input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; } .ds-chip span { display: inline-flex; align-items: center; min-height: 46px; padding: 0 18px; border-radius: 999px; color: #f6f1ea; box-shadow: inset 0 0 0 1.5px rgba(246,241,234,.25); font: 600 15px/1 Manrope, system-ui, sans-serif; transition: background-color .25s, box-shadow .25s, color .25s; } .ds-chip input:hover + span { box-shadow: inset 0 0 0 1.5px rgba(246,241,234,.6); } .ds-chip input:checked + span { background: #f6f1ea; color: #120a24; box-shadow: none; } .ds-chip input:focus-visible + span { outline: 2px solid #ffe9a8; outline-offset: 3px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Form field; focus cools the ring to cyan.",
+      "html": "<label class=\"ds-field\"><span>Tu nombre</span><input type=\"text\" placeholder=\"Nombre\"></label>",
+      "css": ".ds-field { display: grid; gap: 8px; font: 700 15px/1.4 Manrope, system-ui, sans-serif; color: #f6f1ea; } .ds-field input { width: 100%; min-height: 52px; padding: 14px 16px; border: 0; border-radius: 12px; background: rgba(255,255,255,.04); color: #f6f1ea; font: 500 16px/1.4 Manrope, system-ui, sans-serif; box-shadow: inset 0 0 0 1.5px rgba(246,241,234,.18); transition: box-shadow .25s, background-color .25s; } .ds-field input::placeholder { color: rgba(214,206,228,.82); } .ds-field input:focus { outline: none; box-shadow: inset 0 0 0 2px #2bb3e8; background: rgba(43,179,232,.06); }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Logo badge, lilac links, compact hot button; solid ground once scrolled.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-badge\" href=\"#\"><span class=\"ds-disc\"></span><span>Harti Electrocool<small>Climatización</small></span></a><ul><li><a href=\"#\">Servicios</a></li><li><a href=\"#\">Equipos</a></li><li><a href=\"#\">Contacto</a></li></ul><a class=\"ds-nav-cta\" href=\"#\">Pedir presupuesto</a></header>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 28px; height: 76px; padding: 0 24px; background: rgba(11,7,22,.92); box-shadow: 0 1px 0 rgba(244,236,255,.14); } .ds-badge { display: flex; align-items: center; gap: 12px; color: #f6f1ea; text-decoration: none; font: 800 15px/1.05 Unbounded, 'Arial Black', sans-serif; } .ds-badge small { display: block; font: 500 12px/1.4 'JetBrains Mono', ui-monospace, monospace; letter-spacing: .14em; text-transform: uppercase; color: #c9bfd9; } .ds-disc { width: 52px; height: 52px; border-radius: 50%; background: radial-gradient(circle at 30% 50%, #f7931e 0 48%, transparent 49%), linear-gradient(90deg, #e8462a 50%, #2bb3e8 50%); box-shadow: 0 0 0 3px rgba(255,255,255,.08), 0 8px 20px -10px rgba(0,0,0,.7); } .ds-nav ul { display: flex; gap: 30px; list-style: none; margin: 0 0 0 auto; padding: 0; } .ds-nav ul a { color: #c9bfd9; text-decoration: none; font: 600 15px Manrope, system-ui, sans-serif; transition: color .2s; } .ds-nav ul a:hover { color: #f6f1ea; } .ds-nav ul a:focus-visible, .ds-nav-cta:focus-visible { outline: 2px solid #ffe9a8; outline-offset: 3px; border-radius: 4px; } .ds-nav-cta { display: inline-flex; align-items: center; min-height: 46px; padding: 0 20px; border-radius: 999px; background: #f7931e; color: #1b0c02; font: 700 14px/1 Manrope, system-ui, sans-serif; text-decoration: none; }"
+    },
+    {
+      "name": "System Card",
+      "kind": "card",
+      "refersTo": "system-card",
+      "description": "Equipment type as a thermal rendering with a line drawing and mono spot reading.",
+      "html": "<article class=\"ds-sys\"><div class=\"ds-sys-shot\"><div class=\"ds-th\"></div><span class=\"ds-tag\">Pared</span><span class=\"ds-spot\">21,4 °C</span></div><div class=\"ds-sys-body\"><h3>Split</h3><p>El clásico de pared. Ideal para una habitación o un salón.</p><a href=\"#\">Pedir precio <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a></div></article>",
+      "css": ".ds-sys { width: 240px; display: flex; flex-direction: column; border-radius: 20px; overflow: hidden; background: #140c26; box-shadow: inset 0 0 0 1px rgba(244,236,255,.14); color: #f6f1ea; } .ds-sys-shot { position: relative; aspect-ratio: 4 / 5; overflow: hidden; } .ds-th { position: absolute; inset: -8%; filter: blur(14px) saturate(1.15); background: radial-gradient(70% 55% at 50% 30%, #2bb3e8 0%, #1673c9 30%, transparent 62%), radial-gradient(120% 80% at 50% 100%, #e8462a, #b5176b 40%, #5b1a8a 70%); transition: transform 1.4s cubic-bezier(.16, 1, .3, 1); } .ds-sys:hover .ds-th { transform: scale(1.08) rotate(.5deg); } .ds-tag, .ds-spot { position: absolute; bottom: 12px; padding: 8px 10px; border-radius: 8px; background: rgba(8,5,18,.72); font: 700 13px/1 Manrope, system-ui, sans-serif; } .ds-tag { left: 12px; } .ds-spot { right: 12px; font: 600 13px/1 'JetBrains Mono', ui-monospace, monospace; font-variant-numeric: tabular-nums; } .ds-sys-body { padding: 20px 18px 22px; display: grid; gap: 10px; } .ds-sys h3 { margin: 0; font: 800 1.2rem/1.02 Unbounded, 'Arial Black', sans-serif; letter-spacing: -.02em; } .ds-sys p { margin: 0; color: #c9bfd9; font: 400 15px/1.5 Manrope, system-ui, sans-serif; } .ds-sys a { display: inline-flex; gap: 8px; align-items: center; color: #2bb3e8; font: 700 14px Manrope, system-ui, sans-serif; text-decoration: none; } .ds-sys a svg { width: 15px; height: 15px; transition: transform .4s cubic-bezier(.16, 1, .3, 1); } .ds-sys a:hover svg { transform: translateX(3px); } .ds-sys a:focus-visible { outline: 2px solid #ffe9a8; outline-offset: 3px; border-radius: 4px; }"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Ruled service list; a temperature wash sweeps in from the left on hover.",
+      "html": "<ul class=\"ds-svc\"><li data-temp=\"cold\"><h3>Mantenimiento</h3><p>Limpieza y revisión de tu equipo.</p><a href=\"#\">Presupuesto</a></li><li data-temp=\"hot\"><h3>Reparación</h3><p>Diagnóstico y reparación de averías.</p><a href=\"#\">Presupuesto</a></li></ul>",
+      "css": ".ds-svc { list-style: none; margin: 0; padding: 0; border-top: 1px solid rgba(244,236,255,.14); color: #f6f1ea; } .ds-svc li { position: relative; display: grid; grid-template-columns: 1fr 1.2fr auto; gap: 18px 32px; align-items: center; padding: 28px 20px; border-bottom: 1px solid rgba(244,236,255,.14); overflow: hidden; isolation: isolate; } .ds-svc li::before { content: ''; position: absolute; inset: 0; z-index: -1; transform: scaleX(0); transform-origin: left; opacity: 0; transition: transform .8s cubic-bezier(.16, 1, .3, 1), opacity .4s; } .ds-svc li[data-temp=cold]::before { background: linear-gradient(90deg, rgba(10,26,92,.9), rgba(43,179,232,.55)); } .ds-svc li[data-temp=hot]::before { background: linear-gradient(90deg, rgba(91,26,138,.85), rgba(232,70,42,.65), rgba(247,147,30,.55)); } .ds-svc li:hover::before { transform: scaleX(1); opacity: 1; } .ds-svc h3 { margin: 0; font: 800 1.6rem/1.02 Unbounded, 'Arial Black', sans-serif; letter-spacing: -.03em; } .ds-svc p { margin: 0; color: #c9bfd9; font: 400 16px/1.6 Manrope, system-ui, sans-serif; } .ds-svc li:hover p { color: #f1eaf7; } .ds-svc a { color: inherit; white-space: nowrap; font: 700 15px Manrope, system-ui, sans-serif; text-decoration: none; padding: 12px 18px; border-radius: 999px; box-shadow: inset 0 0 0 1.5px rgba(246,241,234,.35); transition: box-shadow .3s, background-color .3s; } .ds-svc a:hover { background: #fff; color: #120a24; box-shadow: none; } .ds-svc a:focus-visible { outline: 2px solid #ffe9a8; outline-offset: 3px; }"
+    },
+    {
+      "name": "HUD Frame and Scale",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Camera corner brackets, mono HUD readout and the vertical temperature scale.",
+      "html": "<div class=\"ds-hud\"><i></i><i></i><i></i><i></i><p class=\"ds-hud-t\"><span class=\"ds-rec\">Vista térmica</span><br>Máx <b>41,8°</b> · Mín <b>17,2°</b></p><div class=\"ds-scale\"><div class=\"ds-ticks\"><span>44°</span><span>30°</span><span>16°</span></div><div class=\"ds-bar\"></div></div></div>",
+      "css": ".ds-hud { position: relative; height: 240px; background: radial-gradient(40% 50% at 35% 60%, #e8462a, #5b1a8a 60%, transparent), #120a24; color: #fff; } .ds-hud i { position: absolute; width: 26px; height: 26px; border: 0 solid rgba(255,255,255,.75); } .ds-hud i:nth-of-type(1) { top: 12px; left: 12px; border-top-width: 2px; border-left-width: 2px; } .ds-hud i:nth-of-type(2) { top: 12px; right: 12px; border-top-width: 2px; border-right-width: 2px; } .ds-hud i:nth-of-type(3) { bottom: 12px; left: 12px; border-bottom-width: 2px; border-left-width: 2px; } .ds-hud i:nth-of-type(4) { bottom: 12px; right: 12px; border-bottom-width: 2px; border-right-width: 2px; } .ds-hud-t { position: absolute; top: 24px; left: 28px; margin: 0; font: 500 12px/1.3 'JetBrains Mono', ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; } .ds-hud-t b { font-weight: 600; color: #ffe9a8; } .ds-rec::before { content: ''; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #e8462a; margin-right: 8px; } .ds-scale { position: absolute; right: 32px; top: 40px; bottom: 40px; display: flex; gap: 10px; } .ds-ticks { display: flex; flex-direction: column; justify-content: space-between; font: 500 12px/1 'JetBrains Mono', ui-monospace, monospace; font-variant-numeric: tabular-nums; } .ds-bar { width: 12px; border-radius: 6px; background: linear-gradient(0deg, #0a1a5c, #1673c9 18%, #2bb3e8 32%, #5b1a8a 48%, #b5176b 62%, #e8462a 74%, #f7931e 86%, #ffd23f 94%, #fff3cf); box-shadow: 0 0 0 1px rgba(255,255,255,.25); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Thermal Viewfinder",
+    "overview": "Everything is seen through a thermal camera. The ground is a cold violet-black, the image space where nothing is warm yet. Heat shows up as the iron ramp (violet, magenta, ember red, the logo's orange, sodium yellow, white-hot), and cold shows up as the logo's own cyan and blue. The two halves of the brand mark become the two ends of one temperature scale, so the palette is a measuring instrument and not decoration.\n\nThe camera's HUD supplies the structural vocabulary: corner brackets that frame a region, a crosshair spot meter, min/max readouts, and a vertical scale bar. Readings are set in a monospaced face because they are measurements. Around them, headlines are heavy and wide (Unbounded 800, tight tracking), and running text is plain, friendly Manrope. Outside the two live thermal fields (hero and closing band), sections are calm and dark. They open with a single camera scan line, the only reveal motion in the system.\n\nThe page is dense where it has to act, with the quote form and live message ticket side by side, and generous between sections (90 to 170px of vertical rhythm). It refuses the category default: no stock photo of a smiling technician beside a split unit, and no row of three service cards.",
+    "keyCharacteristics": [
+      "Cold violet-black ground; heat and cold are the only saturated colors.",
+      "One temperature ramp (`deep-cold` to white-hot) reused as scale bar, slider track, scan line, ticket rule and hover wash.",
+      "HUD devices: corner brackets, spot meter crosshair, mono readouts, scale bar.",
+      "Heavy wide display type over a quiet humanist body.",
+      "Pill-shaped actions; softly rounded containers; white tiles reserved for partner logos.",
+      "One motion grammar: the scan-line reveal."
+    ],
+    "rules": [
+      {
+        "name": "The Two-Ended Scale Rule",
+        "body": "Saturated color means temperature. Warm hues (violet through white-hot) mark heat, problems and the main action; cyan and blue mark cooling, focus and the fix. No saturated hue is used for anything that is not on the scale.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Ramp Rule",
+        "body": "The thermal gradient has one definition (`deep-cold`, `logo-blue` 18%, `logo-cyan` 32%, `iron-violet` 48%, `iron-magenta` 62%, `ember-red` 74%, `logo-orange` 86%, `sodium-yellow` 94%, `#fff3cf`). Every scale bar, slider, scan line, ticket rule and canvas palette uses these stops in this order.",
+        "section": "colors"
+      },
+      {
+        "name": "The Measurement Rule",
+        "body": "Monospace is for readings only: temperatures, kW and frigoría values, m², times and live status. Running text and headings never use it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hairline Rule",
+        "body": "Containers are separated by 1px `line` insets or rules, not by shadows. A shadow means \"this floats or can be pressed\".",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep saturated color on the temperature scale: warm for heat and the main action, `logo-cyan`/`logo-blue` for cooling and focus.",
+      "**Do** build every gradient from the One Ramp stops, in order.",
+      "**Do** set temperatures, power, area, times and live status in JetBrains Mono with tabular figures.",
+      "**Do** frame important regions with HUD corner brackets (2px, 24–26px arms) rather than boxed borders.",
+      "**Do** use pills for every action and the 6–22px rounded scale for containers.",
+      "**Do** reveal new sections with the scan line only, and honor reduced motion."
+    ],
+    "donts": [
+      "**Don't** add a second reveal or entrance animation (fades, slides, staggered pops); the scan line is the only motion grammar.",
+      "**Don't** use stock photos of technicians or equipment; equipment is shown as thermal renderings with line drawings.",
+      "**Don't** use iron violet or magenta as flat UI fills; they exist only inside thermal imagery and washes.",
+      "**Don't** put partner logos directly on the dark ground; they sit on white tiles at their own colors.",
+      "**Don't** invent figures (reviews, years, installation counts, prices); readouts show real or calculated values only."
+    ]
+  }
+}
