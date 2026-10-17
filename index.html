@@ -364,6 +364,9 @@ input[type=range]::-moz-range-thumb { width: 26px; height: 26px; border-radius: 
 .ticket__actions { display: grid; gap: 10px; padding: 0 20px 22px; }
 .ticket__actions .btn { width: 100%; }
 .ticket__note { margin: 0; padding: 0 20px 20px; font-size: 13px; color: var(--soft); }
+.ticket__note a, footer .legal a { color: var(--soft); text-underline-offset: .2em; }
+footer .legal { display: flex; gap: 20px; flex-wrap: wrap; }
+footer .legal a:hover { color: var(--text); }
 
 /* ---------- visit ---------- */
 .vgrid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(40px, 6vw, 100px); }
@@ -581,7 +584,7 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space
             <a class="btn btn--hot" id="sendWa" href="#contacto" target="_blank" rel="noopener">Enviar por WhatsApp <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
             <button class="btn btn--line" id="copyMsg" type="button">Copiar mensaje</button>
           </div>
-          <p class="ticket__note" id="ticketNote">Se abrirá WhatsApp con el mensaje ya escrito. Solo tienes que pulsar enviar.</p>
+          <p class="ticket__note" id="ticketNote">Se abrirá WhatsApp con el mensaje ya escrito. Solo tienes que pulsar enviar. Al enviarlo aceptas nuestra <a href="privacidad.html">política de privacidad</a>.</p>
         </aside>
       </div>
     </div>
@@ -625,8 +628,8 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space
 
 <footer>
   <div class="wrap">
-    <span>© <span id="year">2026</span> Harti Electrocool Climatización · Pedro Muñoz (Ciudad Real)</span>
-    <span>Servicio técnico oficial · Instaladores autorizados</span>
+    <span>© <span id="year">2026</span> Harti Electrocool S.L. · CIF B72453418 · Pedro Muñoz (Ciudad Real)</span>
+    <nav class="legal" aria-label="Información legal"><a href="aviso-legal.html">Aviso legal</a><a href="privacidad.html">Política de privacidad</a></nav>
   </div>
 </footer>
 
