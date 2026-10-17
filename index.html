@@ -127,6 +127,11 @@ h2 { font-size: clamp(2.2rem, 5.4vw, 4.6rem); }
   .scale__ticks { flex-direction: row; }
   .scale__ticks span:nth-child(1) { order: 3; } .scale__ticks span:nth-child(3) { order: 1; } .scale__ticks span:nth-child(2) { order: 2; }
   .hud--br { bottom: 66px; right: auto; left: calc(var(--gutter) + 6px); text-align: left; }
+  /* keep the headline clear of the HUD and the scale on short phone screens */
+  .hero { align-items: start; }
+  .hero .wrap { padding-top: calc(168px + env(safe-area-inset-top)); padding-bottom: 150px; }
+  .hud--tl { top: calc(92px + env(safe-area-inset-top)); }
+  .spot { z-index: 1; }
   .hero::after { background: linear-gradient(180deg, rgba(8,5,18,.2) 0%, rgba(8,5,18,.62) 40%, rgba(8,5,18,.62) 70%, rgba(8,5,18,.1) 100%); } }
 
 /* ---------- scan-line reveal (the one motion grammar) ---------- */
