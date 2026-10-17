@@ -167,6 +167,10 @@ h2 { font-size: clamp(2.2rem, 5.4vw, 4.6rem); }
   -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
 .marquee__track { display: flex; width: max-content; animation: marquee 28s linear infinite; }
 .marquee:hover .marquee__track, .marquee:focus-within .marquee__track { animation-play-state: paused; }
+.js .marquee__track { animation: none; will-change: transform; }
+.js .marquee { touch-action: pan-y; cursor: grab; }
+.js .marquee.is-dragging { cursor: grabbing; }
+.brands li img { -webkit-user-drag: none; user-select: none; pointer-events: none; }
 @keyframes marquee { to { transform: translateX(-50%); } }
 .brands ul { list-style: none; margin: 0; padding: 0 6px; display: flex; gap: 12px; }
 .brands li { flex: none; display: grid; place-items: center; width: 190px; height: 84px; padding: 14px 20px; border-radius: 14px; background: #fff; }
@@ -627,6 +631,41 @@ const EMPRESA = {
   const nav = $('#nav'), mb = $('#menuBtn');
   mb.addEventListener('click', () => { const o = nav.classList.toggle('open'); mb.setAttribute('aria-expanded', o); });
   $$('#navLinks a').forEach(a => a.addEventListener('click', () => { nav.classList.remove('open'); mb.setAttribute('aria-expanded', 'false'); }));
+
+  /* ---------- brand marquee: drifts on its own, drag to scroll ---------- */
+  (() => {
+    const box = $('.marquee'), track = $('.marquee__track');
+    if (!box || RM) return;
+    const half = () => track.scrollWidth / 2;
+    let x = 0, v = 0, last = 0, drag = null, hover = false, visible = false, raf = 0;
+    const speed = () => innerWidth < 700 ? 70 : 45;          // px per second
+    const wrap = () => { const h = half(); if (h > 0) { while (x <= -h) x += h; while (x > 0) x -= h; } };
+    const tick = t => {
+      const dt = last ? Math.min(.05, (t - last) / 1000) : 0; last = t;
+      if (!drag) {
+        if (Math.abs(v) > 5) { x += v * dt; v *= Math.pow(.04, dt); }   // momentum after a flick
+        else if (!hover) x -= speed() * dt;
+      }
+      wrap(); track.style.transform = `translate3d(${x}px,0,0)`;
+      raf = visible ? requestAnimationFrame(tick) : 0;
+    };
+    const start = () => { if (!raf) { last = 0; raf = requestAnimationFrame(tick); } };
+    new IntersectionObserver(([e]) => { visible = e.isIntersecting; if (visible) start(); }).observe(box);
+    box.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse') hover = true; });
+    box.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse') hover = false; });
+    box.addEventListener('pointerdown', e => {
+      drag = { id: e.pointerId, x: e.clientX, y: e.clientY, t: performance.now(), on: false }; v = 0;
+    });
+    box.addEventListener('pointermove', e => {
+      if (!drag || e.pointerId !== drag.id) return;
+      const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+      if (!drag.on) { if (Math.abs(dx) < 6 || Math.abs(dy) > Math.abs(dx)) return; drag.on = true; box.setPointerCapture(e.pointerId); box.classList.add('is-dragging'); }
+      const n = performance.now(), dt = Math.max(1, n - drag.t) / 1000;
+      x += dx; v = dx / dt; drag.x = e.clientX; drag.y = e.clientY; drag.t = n; wrap();
+    });
+    const end = e => { if (!drag || e.pointerId !== drag.id) return; if (performance.now() - drag.t > 120) v = 0; drag = null; box.classList.remove('is-dragging'); };
+    box.addEventListener('pointerup', end); box.addEventListener('pointercancel', end);
+  })();
 
   /* ---------- nav + mobile bar ---------- */
   const onScroll = () => {
