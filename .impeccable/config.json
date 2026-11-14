@@ -20,6 +20,15 @@
         ],
         "createdAt": "2026-11-14T01:58:53.914Z",
         "reason": "Claude, per DESIGN.md 'The Thermal Viewfinder': radial washes are the thermal-camera images (thumbnails, section tint), the site's core concept"
+      },
+      {
+        "rule": "marquee",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-14T02:12:11.688Z",
+        "reason": "user confirmed: Adam chose to keep the moving brands strip (2026-11-14)"
       }
     ]
   }
