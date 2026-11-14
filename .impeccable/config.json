@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-14T01:58:48.208Z",
+        "reason": "Claude: hero, brands and close are full-bleed sections whose content sits in .wrap with padding-inline var(--gutter); text is not flush to any boundary"
+      },
+      {
+        "rule": "radial-halo",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-14T01:58:53.914Z",
+        "reason": "Claude, per DESIGN.md 'The Thermal Viewfinder': radial washes are the thermal-camera images (thumbnails, section tint), the site's core concept"
+      }
+    ]
+  }
+}
